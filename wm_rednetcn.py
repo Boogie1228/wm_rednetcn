@@ -31,7 +31,7 @@ class CrawlBoxun:
         self.topic = os.getenv("OUT_TOPIC", 'app.parser.content')
         # self.producer = KafkaProducer(
         #     bootstrap_servers=os.getenv("TO_KAFKA_HOSTS", '10.19.255.238:9092,10.19.255.138:9092,10.19.255.142:9092'),
-        #     retries=3)2
+        #     retries=3)
         self.headers= {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
